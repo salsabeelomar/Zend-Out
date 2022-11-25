@@ -43,7 +43,7 @@ function Landing() {
 
   return (
     <SafeAreaView width="100%">
-      <ScrollView contentContainerStyle={styles.container}>
+      <ScrollView horizontal="true" contentContainerStyle={styles.container}>
         <Image source={logo} style={{ marginTop: -35, marginBottom: 10 }} />
         <View width="70%">
           <Text style={styles.label}>Email</Text>
