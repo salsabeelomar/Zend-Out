@@ -1,7 +1,7 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Products from '../Component/Products/Products';
 
-function Products() {
-  return <Text> Products</Text>;
+function ProductPage() {
+  return <Products />;
 }
-export default Products;
+export default ProductPage;
