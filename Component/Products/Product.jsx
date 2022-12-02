@@ -1,51 +1,80 @@
 import React, { useState } from 'react';
 import Lottie from 'lottie-react-native';
-import { Image, Text, View } from 'react-native';
+import { Image, Text, Pressable, View } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import Loader from '../../assets/imageLoader.json';
+import FavoriteButton from './FavoriteButton';
 
 function Product({ item }) {
+  const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
+  const [errorImg, setErrorImg] = useState(false);
+
   return (
-    <View
-      style={{
-        width: 200,
-        height: 250,
-        margin: 10,
+    <Pressable
+      onPress={() => {
+        navigation.navigate('SingleProduct', {
+          id: item.id,
+          description: item.description,
+          name: item.name,
+          image: item.image_link,
+          price: item.price,
+          productColors: item.product_colors,
+        });
       }}
     >
-      {loading && (
-        <Lottie
-          source={Loader}
-          style={{ display: 'block', width: 150, height: 150 }}
-          autoPlay
-          loop
-        />
-      )}
-      <Image
-        onLoadStart={() => {
-          setLoading(true);
-        }}
-        onError={() => {
-          setLoading(true);
-        }}
-        onLoadEnd={() => {
-          setLoading(false);
-        }}
-        source={{ uri: item.image }}
-        alt="items"
+      <View
         style={{
-          display: 'block',
-          marginRight: 'auto',
-          marginLeft: 'auto',
-          width: 150,
-          height: 150,
-          borderRadius: 5,
+          width: 180,
+          height: 290,
+          marginLeft: 20,
+          marginTop: 5,
         }}
-      />
-      <Text>{item.title}</Text>
-      <Text>{item.price}$</Text>
-      <View style={{ flex: 1, flexDirection: 'row' }} />
-    </View>
+      >
+        {loading && (
+          <Lottie
+            source={Loader}
+            style={{ display: 'block', width: 150, height: 150 }}
+            autoPlay
+            loop
+          />
+        )}
+        <View style={{ position: 'relative' }}>
+          <Image
+            onLoadStart={() => {
+              setLoading(true);
+            }}
+            onError={() => {
+              setErrorImg(true);
+            }}
+            onLoadEnd={() => {
+              setLoading(false);
+            }}
+            source={{
+              uri: errorImg
+                ? 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSLx2ikECnRXDzPAAMSdJkpQ78Aqz-frGAq5Eez5Aak6X1nMhRpuFNY3Opl5Ys9BQLAEs&usqp=CAU'
+                : item.image_link,
+            }}
+            alt="items"
+            style={{
+              display: 'block',
+              marginRight: 'auto',
+              marginLeft: 'auto',
+              backgroundColor: 'white',
+              width: 180,
+              height: 200,
+              borderRadius: 5,
+            }}
+          />
+          <FavoriteButton cb={() => console.log(item.id)} flag="home" />
+        </View>
+        <Text style={{ fontWeight: 'bold', paddingTop: 5, paddingLeft: 5 }}>
+          $ {item.price}
+        </Text>
+        <Text style={{ padding: 3, color: '#5c5959' }}>{item.name}</Text>
+      </View>
+    </Pressable>
   );
 }
+
 export default Product;

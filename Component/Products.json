@@ -1,0 +1,1974 @@
+{
+  "data": [
+    {
+      "id": 788,
+      "brand": "clinique",
+      "name": "Chubby Stick&trade; Sculpting Highlight",
+      "price": "23.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZA1N01_181x209.png",
+      "product_link": "https://www.clinique.com/product/14346/34748/makeup/contouring/chubby-stick-sculpting-highlight",
+      "description": "Luminous cream highlighting stick with light-reflecting optics brings your best features forward. Long-wearing, oil-free.",
+      "product_type": "foundation",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/788.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/788/original/data?1514072313",
+      "product_colors": [
+        {
+          "hex_value": "#f5c5b4",
+          "colour_name": "Hefty Highlight"
+        }
+      ]
+    },
+
+    {
+      "id": 787,
+      "brand": "clinique",
+      "name": "Chubby Stick&trade; Sculpting Contour",
+      "price": "23.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZCP701_181x209.png",
+      "product_link": "https://www.clinique.com/product/14346/34749/makeup/contouring/chubby-stick-sculpting-contour",
+      "description": "Creamy contouring stick creates the illusion of depth; makes areas appear to recede. Long-wearing, oil-free.",
+      "product_type": "foundation",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/787.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/787/original/data?1514072312",
+      "product_colors": [
+        {
+          "hex_value": "#995239",
+          "colour_name": "Curvy Contour"
+        }
+      ]
+    },
+    {
+      "id": 786,
+      "brand": "clinique",
+      "name": "Limited Edition Highlighting Kit",
+      "price": "39.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_K2MG80_181x209.png",
+      "product_link": "https://www.clinique.com/product/14346/51296/makeup/contouring/limited-edition-highlighting-kit",
+      "description": "",
+      "product_type": "foundation",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/786.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/786/original/data?1514072312",
+      "product_colors": []
+    },
+    {
+      "id": 785,
+      "brand": "clinique",
+      "name": "Blended Face Powder and Brush",
+      "price": "26.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6362_181x209.png",
+      "product_link": "https://www.clinique.com/product/1594/6271/makeup/bronzers/blended-face-powder-and-brush",
+      "description": "Clinique's signature blended powder. Loose, lightweight texture is right for every type of skin. Sets and perfects makeup, makes pores seem to disappear. Airy, skin-hugging formula delivers a reliably flawless finish.",
+      "product_type": "bronzer",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/785.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/785/original/data?1514072311",
+      "product_colors": [
+        {
+          "hex_value": "#E1D6CC",
+          "colour_name": "Invisible Blend"
+        },
+        {
+          "hex_value": "#E9CEB9",
+          "colour_name": "Transparency Neutral"
+        },
+        {
+          "hex_value": "#E6C8B9",
+          "colour_name": "Transparency 2"
+        },
+        {
+          "hex_value": "#DBBCA4",
+          "colour_name": "Transparency 3"
+        },
+        {
+          "hex_value": "#D2AC97",
+          "colour_name": "Transparency 4"
+        },
+        {
+          "hex_value": "#BA927A",
+          "colour_name": "Transparency 4 Plus"
+        },
+        {
+          "hex_value": "#BB9280",
+          "colour_name": "Transparency Bronze"
+        },
+        {
+          "hex_value": "#AE846A",
+          "colour_name": "Transparency 5"
+        }
+      ]
+    },
+    {
+      "id": 784,
+      "brand": "clinique",
+      "name": "Up-lighting&trade; Liquid Illuminator",
+      "price": "28.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6L1X_181x209.png",
+      "product_link": "https://www.clinique.com/product/1594/6429/makeup/bronzers/up-lighting-liquid-illuminator",
+      "description": "Sheer, lightweight liquid instantly illuminates skin. Highlights and contours cheeks, brow bones, or gives face an allover glow. Glides on to create a natural-looking luminosity. Perfect for all skin types and tones. Oil-free.",
+      "product_type": "bronzer",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/784.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/784/original/data?1514072336",
+      "product_colors": [
+        {
+          "hex_value": "#E9B180",
+          "colour_name": "Natural"
+        }
+      ]
+    },
+    {
+      "id": 783,
+      "brand": "clinique",
+      "name": "True Bronze&trade; Pressed Powder Bronzer",
+      "price": "27.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6FW2_181x209.png",
+      "product_link": "https://www.clinique.com/product/1594/5737/makeup/bronzers/true-bronze-pressed-powder-bronzer",
+      "description": "Lightweight powder bronzer creates a natural-looking, sun-kissed radiance. Blends, builds easily to your desired level of bronze. Perfect for on-the-go glow. Long-wearing. Oil-free.",
+      "product_type": "bronzer",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/783.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/783/original/open-uri20171223-4-1mjyhnf?1514072336",
+      "product_colors": [
+        {
+          "hex_value": "#C68C63",
+          "colour_name": "Sunswept"
+        },
+        {
+          "hex_value": "#CE8963",
+          "colour_name": "Sunblushed"
+        },
+        {
+          "hex_value": "#DA9475",
+          "colour_name": "Sunkissed"
+        }
+      ]
+    },
+    {
+      "id": 782,
+      "brand": "clinique",
+      "name": "Uplighting Illuminating Powder",
+      "price": "27.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZEFR01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1594/42256/makeup/bronzers/uplighting-illuminating-powder",
+      "description": "This sheer illuminating powder with soft-focus pigments flatters skin with a candle-lit glow of radiance. Wear it alone, as a finishing powder after foundation, or as a highlighter only where you want it. In 3 luminous shades.",
+      "product_type": "bronzer",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/782.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/782/original/open-uri20171223-4-16kl0fz?1514072336",
+      "product_colors": [
+        {
+          "hex_value": "#f1bfa0",
+          "colour_name": "Nude Glow"
+        },
+        {
+          "hex_value": "#e29c74",
+          "colour_name": "Golden Glow"
+        },
+        {
+          "hex_value": "#bb6f4a",
+          "colour_name": "Bronze Glow"
+        }
+      ]
+    },
+    {
+      "id": 781,
+      "brand": "clinique",
+      "name": "Sun-Kissed Face Gelee Complexion Multitasker",
+      "price": "28.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZMAT01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1594/41442/makeup/bronzers/sun-kissed-face-gelee-complexion-multitasker",
+      "description": "An instant pick-me-up for skin. Sheer, oil-free gel creates a warm, healthy glow. Appropriate for all skin types and tones. Ophthalmologist Tested.",
+      "product_type": "bronzer",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/781.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/781/original/data?1514072335",
+      "product_colors": [
+        {
+          "hex_value": "#bb7859",
+          "colour_name": "Universal Glow"
+        }
+      ]
+    },
+    {
+      "id": 780,
+      "brand": "fenty",
+      "name": "PRO FILT'R - Soft Matte Longwear Foundation",
+      "price": "34.0",
+      "price_sign": "$",
+      "image_link": "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dw6a5f14c4/hi-res/FB30006_FB0320.jpg?sw=550 550w",
+      "product_link": "https://www.fentybeauty.com/pro-filtr/soft-matte-longwear-foundation/FB30006.html",
+      "description": "A soft matte, longwear foundation with buildable, medium to full coverage, in a boundary-breaking range of 40 shades.",
+      "product_type": "foundation",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/780.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/780/original/open-uri20171223-4-13jsgyc?1514069071",
+      "product_colors": [
+        {
+          "hex_value": "#FDE9DE",
+          "colour_name": "100 Neutral"
+        },
+        {
+          "hex_value": "#F0D4BA",
+          "colour_name": "150 Neutral"
+        },
+        {
+          "hex_value": "#EABE9C",
+          "colour_name": "200 Cool"
+        },
+        {
+          "hex_value": "#E5AD7E",
+          "colour_name": "250 Warm Peach"
+        },
+        {
+          "hex_value": "#CC9363",
+          "colour_name": "300 Neutral"
+        },
+        {
+          "hex_value": "#B97948",
+          "colour_name": "350 Neutral"
+        },
+        {
+          "hex_value": "#A75F24",
+          "colour_name": "400 Warm"
+        },
+        {
+          "hex_value": "#845031",
+          "colour_name": "450 Warm"
+        },
+        {
+          "hex_value": "#F2D3B2",
+          "colour_name": "130 Warm"
+        },
+        {
+          "hex_value": "#F9D5B8",
+          "colour_name": "180 Warm"
+        },
+        {
+          "hex_value": "#DFAD8A",
+          "colour_name": "230 Neutral"
+        },
+        {
+          "hex_value": "#E6AD85",
+          "colour_name": "280 Warm Peach"
+        },
+        {
+          "hex_value": "#D39157",
+          "colour_name": "330 Warm"
+        },
+        {
+          "hex_value": "#C9875A",
+          "colour_name": "380 Cool"
+        },
+        {
+          "hex_value": "#8A512A",
+          "colour_name": "430 Neutral"
+        },
+        {
+          "hex_value": "#693B21",
+          "colour_name": "480 Neutral"
+        },
+        {
+          "hex_value": "#FDE7DA",
+          "colour_name": "110 Cool"
+        },
+        {
+          "hex_value": "#F5CDAA",
+          "colour_name": "160 Warm Peach"
+        },
+        {
+          "hex_value": "#E2AD85",
+          "colour_name": "210 Neutral"
+        },
+        {
+          "hex_value": "#DCA77D",
+          "colour_name": "260 Neutral"
+        },
+        {
+          "hex_value": "#D39059",
+          "colour_name": "310 Warm"
+        },
+        {
+          "hex_value": "#BE7B46",
+          "colour_name": "360 Neutral Olive"
+        },
+        {
+          "hex_value": "#9E5D2D",
+          "colour_name": "410 Cool"
+        },
+        {
+          "hex_value": "#7E462D",
+          "colour_name": "460 Cool"
+        },
+        {
+          "hex_value": "#FBE1C6",
+          "colour_name": "140 Warm"
+        },
+        {
+          "hex_value": "#EAC3A0",
+          "colour_name": "190 Neutral"
+        },
+        {
+          "hex_value": "#D9A57D",
+          "colour_name": "240 Warm"
+        },
+        {
+          "hex_value": "#DCB07D",
+          "colour_name": "290 Neutral Olive"
+        },
+        {
+          "hex_value": "#AC7652",
+          "colour_name": "340 Cool"
+        },
+        {
+          "hex_value": "#A86B3F",
+          "colour_name": "390 Warm"
+        },
+        {
+          "hex_value": "#995933",
+          "colour_name": "440 Cool"
+        },
+        {
+          "hex_value": "#583218",
+          "colour_name": "490 Cool"
+        },
+        {
+          "hex_value": "#FEE3CC",
+          "colour_name": "120 Neutral"
+        },
+        {
+          "hex_value": "#E8BFA3",
+          "colour_name": "170 Cool"
+        },
+        {
+          "hex_value": "#F0BD96",
+          "colour_name": "220 Warm Peach"
+        },
+        {
+          "hex_value": "#D49C6D",
+          "colour_name": "270 Warm"
+        },
+        {
+          "hex_value": "#D49164",
+          "colour_name": "320 Warm Peach"
+        },
+        {
+          "hex_value": "#CB8458",
+          "colour_name": "370 Warm"
+        },
+        {
+          "hex_value": "#AC6A3A",
+          "colour_name": "420 Neutral"
+        },
+        {
+          "hex_value": "#6B391E",
+          "colour_name": "470 Neutral"
+        }
+      ]
+    },
+    {
+      "id": 778,
+      "brand": "clinique",
+      "name": "Sculptionary&trade; Cheek Contouring Palette",
+      "price": "34.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZAMN_181x209.png",
+      "product_link": "https://www.clinique.com/product/1593/34892/makeup/blushers/sculptionary-cheek-contouring-palette",
+      "description": "Versatile cheek sculpting compact with natural-looking shades that blend and build beautifully. Use each separately to colour, contour, highlight. Or swirl them together for a quick easy glow. Use mid-toned shade as a blush, deep-toned shade to contour, lightest shade to highlight. For a quick, easy glow swirl brush over entire palette and dust over apples of cheeks. Long-wearing, oil-free. ",
+
+      "product_type": "blush",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/778.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/778/original/data?1514072606",
+      "product_colors": [
+        {
+          "hex_value": "#f5cdc4,#f4b6a6,#ef8c85",
+          "colour_name": "Defining Nectars"
+        },
+        {
+          "hex_value": "#fbd5db,#c57c82,#925058",
+          "colour_name": "Defining Berries"
+        },
+        {
+          "hex_value": "#f5cdd0,#f58589,#9a5f62",
+          "colour_name": "Defining Roses"
+        },
+        {
+          "hex_value": "#facebe,#e3a99f,#bf6f5c",
+          "colour_name": "Defining Nudes"
+        },
+        {
+          "hex_value": "#e5e1cd,#d6b7c3,#a8b2d5",
+          "colour_name": "Defining Sugars"
+        },
+        {
+          "hex_value": "#fce5e7,#deb5bd,#d36686",
+          "colour_name": "Defining Pinks"
+        }
+      ]
+    },
+    {
+      "id": 777,
+      "brand": "clinique",
+      "name": "Blushing Blush&trade; Powder Blush",
+      "price": "23.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6FLK_181x209.png",
+      "product_link": "https://www.clinique.com/product/1593/5265/makeup/blushers/blushing-blush-powder-blush",
+      "description": "Silky formula sweeps effortlessly over cheekbones to create a natural look. Fresh, jet-milled colour builds and blends beautifully to desired intensity with custom sculpting brush. Long-wearing, colour-true. Oil-free.",
+      "product_type": "blush",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/777.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/777/original/open-uri20171223-4-v4q2w6?1514072605",
+      "product_colors": [
+        {
+          "hex_value": "#f18f94",
+          "colour_name": "Cupid"
+        },
+        {
+          "hex_value": "#c0705d",
+          "colour_name": "Aglow"
+        },
+        {
+          "hex_value": "#e98c86",
+          "colour_name": "Sunset Glow"
+        },
+        {
+          "hex_value": "#da8b92",
+          "colour_name": "Smoldering Plum"
+        },
+        {
+          "hex_value": "#f397a4",
+          "colour_name": "Iced Lotus"
+        },
+        {
+          "hex_value": "#f59494",
+          "colour_name": "Precious Posy"
+        },
+        {
+          "hex_value": "#d78281",
+          "colour_name": "Berry Delight"
+        },
+        {
+          "hex_value": "#b05762",
+          "colour_name": "Spiced Wine"
+        }
+      ]
+    },
+    {
+      "id": 776,
+      "brand": "clinique",
+      "name": "Cheek Pop&trade;",
+      "price": "23.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_7THL_181x209.png",
+      "product_link": "https://www.clinique.com/product/1593/29770/makeup/blushers/cheek-pop",
+      "description": "Vibrant yet natural-looking cheek colour that looks virtually powderless. In a silky smooth, stay-true formula with shades for every skin tone. That just-pinched look, simply effortless.",
+      "product_type": "blush",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/776.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/776/original/open-uri20171223-4-122ljen?1514072604",
+      "product_colors": [
+        {
+          "hex_value": "#cf5d5d",
+          "colour_name": "Peach Pop"
+        },
+        {
+          "hex_value": "#aa514a",
+          "colour_name": "Black Honey Pop "
+        },
+        {
+          "hex_value": "#e79da4",
+          "colour_name": "Pink Honey"
+        },
+        {
+          "hex_value": "#cd698d",
+          "colour_name": "Plum Pop"
+        },
+        {
+          "hex_value": "#db8669",
+          "colour_name": "Nude Pop"
+        },
+        {
+          "hex_value": "#de7a7b",
+          "colour_name": "Pink Pop"
+        },
+        {
+          "hex_value": "#c75c69",
+          "colour_name": "Rosy Pop"
+        },
+        {
+          "hex_value": "#ab6266",
+          "colour_name": "Heather Pop"
+        },
+        {
+          "hex_value": "#f29686",
+          "colour_name": "Melon Pop"
+        },
+        {
+          "hex_value": "#b55241",
+          "colour_name": "Fig Pop"
+        },
+        {
+          "hex_value": "#b54d70",
+          "colour_name": "Berry Pop"
+        },
+        {
+          "hex_value": "#a06b89",
+          "colour_name": "Pansy Pop"
+        },
+        {
+          "hex_value": "#ad5753",
+          "colour_name": "Ginger Pop"
+        },
+        {
+          "hex_value": "#641009",
+          "colour_name": "Cola Pop"
+        }
+      ]
+    },
+    {
+      "id": 775,
+      "brand": "clinique",
+      "name": "Clinique + Jonathan Adler: Cheek Pop",
+      "price": "18.9",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_K22102_181x209.png",
+      "product_link": "https://www.clinique.com/product/1593/50730/makeup/blushers/clinique-jonathan-adler-cheek-pop",
+      "description": "",
+      "product_type": "blush",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/775.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/775/original/open-uri20171223-4-1170sei?1514072604",
+      "product_colors": [
+        {
+          "hex_value": "#cf5e5e",
+          "colour_name": "Clinique + Jonathan Adler: Cheek Pop in Peach Pop"
+        },
+        {
+          "hex_value": "#cd698d",
+          "colour_name": "Clinique + Jonathan Adler: Cheek Pop in Plum Pop"
+        }
+      ]
+    },
+    {
+      "id": 774,
+      "brand": "clinique",
+      "name": "Soft-Pressed Powder Blusher",
+      "price": "23.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_618J_181x209.png",
+      "product_link": "https://www.clinique.com/product/1593/5164/makeup/blushers/soft-pressed-powder-blusher",
+      "description": "Warm, natural-looking powder blush for all skins. Sheer, buildable colour gives cheeks a radiant glow. Silky, fresh finish, too. Wide range of shades, from subtle to vibrant. Comes with brush applicator.",
+      "product_type": "blush",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/774.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/774/original/open-uri20171223-4-1oqk5jn?1514072604",
+      "product_colors": [
+        {
+          "hex_value": "#cc897d",
+          "colour_name": "Honey Blush"
+        },
+        {
+          "hex_value": "#ca8c8c",
+          "colour_name": "Pink Blush"
+        },
+        {
+          "hex_value": "#b97b81",
+          "colour_name": "New Clover"
+        },
+        {
+          "hex_value": "#bb8376",
+          "colour_name": "Chestnut Blush"
+        },
+        {
+          "hex_value": "#b6847a",
+          "colour_name": "Mocha Pink"
+        },
+        {
+          "hex_value": "#ac7f79",
+          "colour_name": "Plum Gorgeous"
+        },
+        {
+          "hex_value": "#b1706a",
+          "colour_name": "Fig"
+        },
+        {
+          "hex_value": "#b08176",
+          "colour_name": "Totally Tawny"
+        }
+      ]
+    },
+    {
+      "id": 773,
+      "brand": "clinique",
+      "name": "Chubby Stick&trade; Cheek Colour Balm",
+      "price": "23.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_Z47M_181x209.png",
+      "product_link": "https://www.clinique.com/product/1593/30944/makeup/blushers/chubby-stick-cheek-colour-balm",
+      "description": "Creamy, mistake-proof cheek colour creates a healthy-looking glow in an instant. Oil-free.",
+      "product_type": "blush",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/773.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/773/original/data?1514072603",
+      "product_colors": [
+        {
+          "hex_value": "#f87467",
+          "colour_name": "Robust Rhubarb"
+        },
+        {
+          "hex_value": "#cf5d5d",
+          "colour_name": "Amp'd Up Apple"
+        },
+        {
+          "hex_value": "#d55f5f",
+          "colour_name": "Roly Poly Rosy"
+        },
+        {
+          "hex_value": "#b46368",
+          "colour_name": "Plumped Up Peony"
+        }
+      ]
+    },
+    {
+      "id": 771,
+      "brand": "clinique",
+      "name": "CliniqueFIT™  Lip + Cheek Flush",
+      "price": "23.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_K5GX01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1593/50978/makeup/blushers/cliniquefittm-lip-cheek-flush",
+      "description": "It’s like a post-workout glow without the workout. Sheer gel adds a healthy-looking touch of colour to lips and cheeks. Fade resistant. Oil-free.",
+      "product_type": "blush",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/771.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/771/original/data?1514072603",
+      "product_colors": [
+        {
+          "hex_value": "#C82062",
+          "colour_name": "Pink in Motion"
+        }
+      ]
+    },
+    {
+      "id": 770,
+      "brand": "clinique",
+      "name": "Chubby&trade; Plump & Shine Liquid Lip Plumping Gloss",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZWP101_181x209.png",
+      "product_link": "https://www.clinique.com/product/1603/45451/makeup/lip-glosses/chubby-plump-shine-liquid-lip-plumping-gloss",
+      "description": "This light-reflecting, high-shine gloss enhances the appearance of lips, making them appear plump and smooth. Moisturizes, wears for hours. Feels refreshing and cool upon application. Dermatologist Tested. Allergy Tested. 100% Fragrance Free.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/770.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/770/original/data?1514072332",
+      "product_colors": [
+        {
+          "hex_value": "#ee8fa8",
+          "colour_name": "Pink & Plenty"
+        },
+        {
+          "hex_value": "#b37366",
+          "colour_name": "Normous Nude"
+        },
+        {
+          "hex_value": "#e76f5f",
+          "colour_name": "Portly Peach"
+        },
+        {
+          "hex_value": "#e28f96",
+          "colour_name": "Jumbo Jem"
+        },
+        {
+          "hex_value": "#cb1b56",
+          "colour_name": "Powerhouse Punch"
+        },
+        {
+          "hex_value": "#973566",
+          "colour_name": "Goliath Grape"
+        },
+        {
+          "hex_value": "#a54a6d",
+          "colour_name": "Va Va Va Violet"
+        },
+        {
+          "hex_value": "#bf133f",
+          "colour_name": "Super Scarlet"
+        }
+      ]
+    },
+    {
+      "id": 769,
+      "brand": "clinique",
+      "name": "Quickliner&trade; For Lips",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_61EM_181x209.png",
+      "product_link": "https://www.clinique.com/product/1604/4771/makeup/lip-liner/quickliner-for-lips",
+      "description": "All-day lip liner. Use to line and define lips or smooth all over lips before lipstick application for extended wear. Non-drying formula helps keep lipstick in place. Prevents lipstick from feathering and bleeding. No sharpening required.",
+      "product_type": "lip_liner",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/769.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/769/original/data?1514072332",
+      "product_colors": [
+        {
+          "hex_value": "#7e4542",
+          "colour_name": "Lipblush"
+        },
+        {
+          "hex_value": "#9b4f46",
+          "colour_name": "Neutrally"
+        },
+        {
+          "hex_value": "#98483a",
+          "colour_name": "Honeystick"
+        },
+        {
+          "hex_value": "#934252",
+          "colour_name": "Bamboo"
+        },
+        {
+          "hex_value": "#7f343b",
+          "colour_name": "Cocoa Rose"
+        },
+        {
+          "hex_value": "#b7706b",
+          "colour_name": "Baby Buff"
+        },
+        {
+          "hex_value": "#a9405c",
+          "colour_name": "Crushed Berry"
+        },
+        {
+          "hex_value": "#c76378",
+          "colour_name": "Soft Rose"
+        },
+        {
+          "hex_value": "#831441",
+          "colour_name": "Velvet Rose"
+        },
+        {
+          "hex_value": "#ca5245",
+          "colour_name": "Cocoa Peach"
+        },
+        {
+          "hex_value": "#7b0705",
+          "colour_name": "Tawny Tulip"
+        },
+        {
+          "hex_value": "#b05087",
+          "colour_name": "Sky Violet"
+        },
+        {
+          "hex_value": "#562a41",
+          "colour_name": "Plummy"
+        },
+        {
+          "hex_value": "#490c05",
+          "colour_name": "Chocolate Chip"
+        },
+        {
+          "hex_value": "#733A40",
+          "colour_name": "Bon Bon"
+        },
+        {
+          "hex_value": "#5d0810",
+          "colour_name": "Chili"
+        }
+      ]
+    },
+    {
+      "id": 768,
+      "brand": "clinique",
+      "name": " Quickliner&trade; For Lips Intense",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGGY01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1604/37967/makeup/lip-liner/quickliner-for-lips-intense",
+      "description": "Silky formula glides on and wears all day. Use it to define the lip line or fill in lips pre-lipstick application. Non-drying formula prevents lipstick from feathering and bleeding. No sharpening required.",
+      "product_type": "lip_liner",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/768.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/768/original/data?1514072331",
+      "product_colors": [
+        {
+          "hex_value": "#e76393",
+          "colour_name": "Intense Hibiscus"
+        },
+        {
+          "hex_value": "#c12b73",
+          "colour_name": "Intense Punch"
+        },
+        {
+          "hex_value": "#b51869",
+          "colour_name": "Intense Jam"
+        },
+        {
+          "hex_value": "#941E58",
+          "colour_name": "Intense Cosmo"
+        },
+        {
+          "hex_value": "#99122b",
+          "colour_name": "Intense Cranberry"
+        },
+        {
+          "hex_value": "#ca1238",
+          "colour_name": "Intense Passion"
+        },
+        {
+          "hex_value": "#ad5e51",
+          "colour_name": "Intense Blush"
+        },
+        {
+          "hex_value": "#bb4f40",
+          "colour_name": "Intense Cayenne"
+        },
+        {
+          "hex_value": "#b36d5c",
+          "colour_name": "Intense Sassafras"
+        },
+        {
+          "hex_value": "#924737",
+          "colour_name": "Intense Cafe"
+        },
+        {
+          "hex_value": "#4f1115",
+          "colour_name": "Intense Licorice"
+        },
+        {
+          "hex_value": "#4f1919",
+          "colour_name": "Intense Cola"
+        }
+      ]
+    },
+    {
+      "id": 767,
+      "brand": "clinique",
+      "name": "Almost Lipstick",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6359_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/4772/makeup/lipsticks/almost-lipstick",
+      "description": "Transparent pigment merges with the unique, natural tone of your lips to create something wonderful and yours alone. Sheer, glossy. Emollient-rich and very lightweight.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/767.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/767/original/data?1514072331",
+      "product_colors": [
+        {
+          "hex_value": "#d15969",
+          "colour_name": "Pink Honey"
+        },
+        {
+          "hex_value": "#4e1d16",
+          "colour_name": "Black Honey"
+        }
+      ]
+    },
+    {
+      "id": 766,
+      "brand": "clinique",
+      "name": "Butter Shine&trade; Lipstick",
+      "price": "8.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6F8X_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/5072/makeup/lipsticks/butter-shine-lipstick",
+      "description": "The creamiest, richest, smoothest lip colour you can imagine. Our revolutionary gel formula delivers the shine of a gloss, the comfort of a lipstick. Drenches lips in moist, lush colour that glides on buttery-soft, feels luxuriously smooth.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/766.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/766/original/data?1514072330",
+      "product_colors": [
+        {
+          "hex_value": "#BB7267",
+          "colour_name": "Delovely"
+        },
+        {
+          "hex_value": "#D87A73",
+          "colour_name": "Adore U"
+        },
+        {
+          "hex_value": "#E56D75",
+          "colour_name": "Pink-a-boo"
+        },
+        {
+          "hex_value": "#CE6B67",
+          "colour_name": "Pink Beach"
+        },
+        {
+          "hex_value": "#D06A7A",
+          "colour_name": "Berry Blush"
+        },
+        {
+          "hex_value": "#DD777F",
+          "colour_name": "Baby Baby"
+        },
+        {
+          "hex_value": "#BA4A60",
+          "colour_name": "Raspberry Rush"
+        },
+        {
+          "hex_value": "#C0415A",
+          "colour_name": "Pink Goddess"
+        },
+        {
+          "hex_value": "#CA7783",
+          "colour_name": "Waterviolet"
+        },
+        {
+          "hex_value": "#B62841",
+          "colour_name": "Apple Brandy"
+        },
+        {
+          "hex_value": "#CB224E",
+          "colour_name": "Fresh Watermelon"
+        },
+        {
+          "hex_value": "#B80036",
+          "colour_name": "Cranberry Cream"
+        },
+        {
+          "hex_value": "#EE4F49",
+          "colour_name": "Ambrosia"
+        }
+      ]
+    },
+    {
+      "id": 765,
+      "brand": "clinique",
+      "name": "High Impact&trade; Lip Colour",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6LX5_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/5778/makeup/lipsticks/high-impact-lip-colour",
+      "description": "",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/765.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/765/original/data?1514072330",
+      "product_colors": [
+        {
+          "hex_value": "#aa443b",
+          "colour_name": "Peach Pop"
+        },
+        {
+          "hex_value": "#b1455a",
+          "colour_name": "Extreme Pink "
+        },
+        {
+          "hex_value": "#913b35",
+          "colour_name": "Go Fig"
+        },
+        {
+          "hex_value": "#D17C76",
+          "colour_name": "Nude Beach"
+        },
+        {
+          "hex_value": "#DC7A75",
+          "colour_name": "Nearly Violet"
+        },
+        {
+          "hex_value": "#E17770",
+          "colour_name": "Honey Blush"
+        },
+        {
+          "hex_value": "#E87785",
+          "colour_name": "Very Currant"
+        },
+        {
+          "hex_value": "#D96A6D",
+          "colour_name": "Toasted Rose"
+        },
+        {
+          "hex_value": "#B3505D",
+          "colour_name": "Rose Spectrum"
+        },
+        {
+          "hex_value": "#C02C29",
+          "colour_name": "Sassy Spice"
+        },
+        {
+          "hex_value": "#853439",
+          "colour_name": "Cider Berry"
+        },
+        {
+          "hex_value": "#CD5247",
+          "colour_name": "Pure Posh"
+        },
+        {
+          "hex_value": "#a9434b",
+          "colour_name": "Rosette"
+        },
+        {
+          "hex_value": "#CC5268",
+          "colour_name": "After Party"
+        },
+        {
+          "hex_value": "#af2033",
+          "colour_name": "Red-y To Wear"
+        }
+      ]
+    },
+    {
+      "id": 764,
+      "brand": "clinique",
+      "name": "Chubby Stick Intense&trade; Moisturizing Lip Colour Balm",
+      "price": "17.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_7THM03_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/24146/makeup/lipsticks/chubby-stick-intense-moisturizing-lip-colour-balm",
+      "description": "Tempt lips with a soft cushion of colour that's not quite sheer, not quite opaque-just the perfect happy medium. Loaded with mango and shea butters so lips feel comfortably soft and smooth. Ten vibrant shades in all.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/764.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/764/original/data?1514072330",
+      "product_colors": [
+        {
+          "hex_value": "#792d39",
+          "colour_name": "Roundest Raspberry"
+        },
+        {
+          "hex_value": "#a95c61",
+          "colour_name": "Curviest Caramel"
+        },
+        {
+          "hex_value": "#ab383f",
+          "colour_name": "Chunkiest Chili"
+        },
+        {
+          "hex_value": "#b5003d",
+          "colour_name": "Mightiest Maraschino"
+        },
+        {
+          "hex_value": "#bd3637",
+          "colour_name": "Heftiest Hibiscus"
+        },
+        {
+          "hex_value": "#a51743",
+          "colour_name": "Plushest Punch"
+        },
+        {
+          "hex_value": "#831344",
+          "colour_name": "Roomiest Rose"
+        },
+        {
+          "hex_value": "#76303e",
+          "colour_name": "Broadest Berry"
+        },
+        {
+          "hex_value": "#771835",
+          "colour_name": "Grandest Grape"
+        }
+      ]
+    },
+    {
+      "id": 763,
+      "brand": "clinique",
+      "name": "Long Last Soft Matte Lipstick",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6280_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/31112/makeup/lipsticks/long-last-soft-matte-lipstick",
+      "description": "Long-wearing formula keeps its just-applied look for hours. Non-drying, non-feathering. Full coverage, velvety, soft matte finish.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/763.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/763/original/data?1514072329",
+      "product_colors": [
+        {
+          "hex_value": "#cd5a64",
+          "colour_name": "Matte Beauty"
+        },
+        {
+          "hex_value": "#ad276a",
+          "colour_name": "Matte Plum"
+        },
+        {
+          "hex_value": "#cc0631",
+          "colour_name": "Matte Crimson"
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "brand": "clinique",
+      "name": "Long Last Lipstick",
+      "price": "17.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_63N2_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/5404/makeup/lipsticks/long-last-lipstick",
+      "description": "Longest-wearing formula. Keeps its just-applied look for hours. Won't feather, creep, stain or dry out.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/762.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/762/original/data?1514072329",
+      "product_colors": [
+        {
+          "hex_value": "#F85856",
+          "colour_name": "Will You?"
+        },
+        {
+          "hex_value": "#BF4559",
+          "colour_name": "I Do!"
+        },
+        {
+          "hex_value": "#d97a96",
+          "colour_name": "Silvery Moon"
+        },
+        {
+          "hex_value": "#C96E5A",
+          "colour_name": "Honeymoon"
+        },
+        {
+          "hex_value": "#ba4a58",
+          "colour_name": "Violet Berry"
+        },
+        {
+          "hex_value": "#cc486a",
+          "colour_name": "Watermelon"
+        },
+        {
+          "hex_value": "#c9253e",
+          "colour_name": "Ginger Flower"
+        },
+        {
+          "hex_value": "#e64e51",
+          "colour_name": "Runway Coral"
+        },
+        {
+          "hex_value": "#af5965",
+          "colour_name": "Twilight Nude"
+        },
+        {
+          "hex_value": "#af675d",
+          "colour_name": "Creamy Nude"
+        },
+        {
+          "hex_value": "#a75155",
+          "colour_name": "Baby Kiss"
+        },
+        {
+          "hex_value": "#ad3836",
+          "colour_name": "Berry Freeze"
+        },
+        {
+          "hex_value": "#A8005B",
+          "colour_name": "Rose Shimmer"
+        },
+        {
+          "hex_value": "#b35060",
+          "colour_name": "Beauty"
+        },
+        {
+          "hex_value": "#a44242",
+          "colour_name": "All Heart"
+        },
+        {
+          "hex_value": "#b32127",
+          "colour_name": "Red Red Red"
+        },
+        {
+          "hex_value": "#be453e",
+          "colour_name": "Golden Brandy"
+        },
+        {
+          "hex_value": "#a75258",
+          "colour_name": "Pink Spice                         "
+        },
+        {
+          "hex_value": "#6c2a2d",
+          "colour_name": "Black Violet"
+        },
+        {
+          "hex_value": "#a95554",
+          "colour_name": "Blushing Nude"
+        },
+        {
+          "hex_value": "#a95c5b",
+          "colour_name": "Sugared Maple"
+        },
+        {
+          "hex_value": "#8f212e",
+          "colour_name": "Merlot"
+        },
+        {
+          "hex_value": "#a96361",
+          "colour_name": "Bamboo Pink"
+        },
+        {
+          "hex_value": "#874f58",
+          "colour_name": "Heather Moon"
+        },
+        {
+          "hex_value": "#a52b25",
+          "colour_name": "Dubonnet"
+        },
+        {
+          "hex_value": "#a7413d",
+          "colour_name": "Pink Chocolate"
+        }
+      ]
+    },
+    {
+      "id": 794,
+      "brand": "clinique",
+      "name": "Instant Lift For Brows",
+      "price": "9.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_71FJ02_181x209.png",
+      "product_link": "https://www.clinique.com/product/1595/8417/makeup/brows/instant-lift-for-brows",
+      "description": "Two-in-one automatic brow pencil and pearlized highlighter duo creates a contrast and definition that give eyes a virtual lift. First, fill in and shape brows with long-wearing natural-looking pencil. Then optically 'boost' brow arches with universal highlighter shade just below brow hairs.",
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/794.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/794/original/data?1514072316",
+      "product_colors": [
+        {
+          "hex_value": "#ecb892",
+          "colour_name": ""
+        },
+        {
+          "hex_value": "#ecb892",
+          "colour_name": "Black Brown"
+        },
+        {
+          "hex_value": "#ecb89f",
+          "colour_name": "Soft Blonde"
+        },
+        {
+          "hex_value": "#ecb89f",
+          "colour_name": "Soft Brown"
+        },
+        {
+          "hex_value": "#ecb89d",
+          "colour_name": "Deep Brown"
+        }
+      ]
+    },
+    {
+      "id": 793,
+      "brand": "clinique",
+      "name": "Superfine Liner For Brows",
+      "price": "18.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_68A9_181x209.png",
+      "product_link": "https://www.clinique.com/product/1595/6332/makeup/brows/superfine-liner-for-brows",
+      "description": "Convenient pencil creates perfectly defined, natural-looking brows. Ultra-fine tip fills even the smallest gaps with precise, hair-like strokes. Automatically self-sharpens; glides on without skipping or tugging. Colour lasts all day.",
+      "product_type": "eyebrow",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/793.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/793/original/data?1514072315",
+      "product_colors": [
+        {
+          "hex_value": "#B68761",
+          "colour_name": "Soft Blonde"
+        },
+        {
+          "hex_value": "#71553e",
+          "colour_name": "Soft Brown"
+        },
+        {
+          "hex_value": "#311b12",
+          "colour_name": "Black/Brown"
+        },
+        {
+          "hex_value": "#533316",
+          "colour_name": "Deep Brown"
+        },
+        {
+          "hex_value": "#94512f",
+          "colour_name": "Soft Auburn"
+        }
+      ]
+    },
+    {
+      "id": 792,
+      "brand": "clinique",
+      "name": "Pretty Easy Brow Palette",
+      "price": "34.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZJPG01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1595/38685/makeup/brows/pretty-easy-brow-palette",
+      "description": "Deluxe brow kit features natural-looking brow powder, powder highlighter, tinted brow fixative plus 4 applicator tips for a precise touch. Includes easy-to-follow illustrated how-tos.",
+      "product_type": "eyebrow",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/792.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/792/original/data?1514072315",
+      "product_colors": []
+    },
+    {
+      "id": 791,
+      "brand": "clinique",
+      "name": "Brow Keeper",
+      "price": "18.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGHJ01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1595/37422/makeup/brows/brow-keeper",
+      "description": "A two-in-one tool for perfectly arched brows. Pencil end shades and shapes with a creamy formula that goes on, holds on. At the other end, a fine-tuned brush keeps brows impeccably groomed. Apply lightly for a natural look. Go heavier for pure glam.",
+      "product_type": "eyebrow",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/791.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/791/original/data?1514072314",
+      "product_colors": [
+        {
+          "hex_value": "#88553f",
+          "colour_name": "Warm Brown"
+        },
+        {
+          "hex_value": "#aa8d77",
+          "colour_name": "Honey"
+        }
+      ]
+    },
+    {
+      "id": 790,
+      "brand": "clinique",
+      "name": "Just Browsing Brush-On Styling Mousse",
+      "price": "18.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZGH501_181x209.png",
+      "product_link": "https://www.clinique.com/product/1595/36585/makeup/brows/just-browsing-brush-on-styling-mousse",
+      "description": "24-hour long-wearing brow mousse tints, tames, fills-in even the sparsest brows. Mini applicator brushes on natural-looking colour that resists smudging, sweat and humidity. Water-resistant, too. Ophthalmologist Tested. Allergy Tested. 100% Fragrance Free.",
+      "product_type": "eyebrow",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/790.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/790/original/data?1514072314",
+      "product_colors": [
+        {
+          "hex_value": "#957E64",
+          "colour_name": "Blonde"
+        },
+        {
+          "hex_value": "#74523c",
+          "colour_name": "Light Brown"
+        },
+        {
+          "hex_value": "#533d2a",
+          "colour_name": "Deep Brown"
+        },
+        {
+          "hex_value": "#3e382e",
+          "colour_name": "Black/Brown"
+        }
+      ]
+    },
+    {
+      "id": 789,
+      "brand": "clinique",
+      "name": "Brow Shaper",
+      "price": "18.0",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_6346_181x209.png",
+      "product_link": "https://www.clinique.com/product/1595/5634/makeup/brows/brow-shaper",
+      "description": "Fine pressed powder, special brush. Soft, natural colours fill in and perfect brows with no harsh lines.",
+      "product_type": "eyebrow",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/789.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/789/original/data?1514072313",
+      "product_colors": [
+        {
+          "hex_value": "#b1896d",
+          "colour_name": "Soft Brown"
+        },
+        {
+          "hex_value": "#ffbd8d",
+          "colour_name": "Wheat"
+        },
+        {
+          "hex_value": "#896a5f",
+          "colour_name": "Charcoaled"
+        },
+        {
+          "hex_value": "#7b5e48",
+          "colour_name": "Shaping Taupe"
+        }
+      ]
+    },
+
+    {
+      "id": 761,
+      "brand": "clinique",
+      "name": "Clinique Pop Liquid™ Matte Lip Colour + Primer",
+      "price": "18.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPM01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/42886/makeup/lipsticks/clinique-pop-liquidtm-matte-lip-colour-primer",
+      "description": "Lightweight liquid lipstick covers lips with lush pigment and a modern matte finish. Wears all day. Moisturizing formula with built-in primer provides a smooth, even glide so lips feel as fresh as they look.",
+      "product_type": "lipstick",
+
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/761.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/761/original/data?1514072328",
+      "product_colors": [
+        {
+          "hex_value": "#e86ba5",
+          "colour_name": "Petal Pop"
+        },
+        {
+          "hex_value": "#841544",
+          "colour_name": "Boom Pop"
+        },
+        {
+          "hex_value": "#da7d7e",
+          "colour_name": "Cake Pop"
+        },
+        {
+          "hex_value": "#c8093a",
+          "colour_name": "Flame Pop"
+        },
+        {
+          "hex_value": "#ef3232",
+          "colour_name": "Ripe Pop"
+        },
+        {
+          "hex_value": "#9e1b56",
+          "colour_name": "Sweetheart Pop"
+        },
+        {
+          "hex_value": "#790126",
+          "colour_name": "Candied Apple Pop"
+        },
+        {
+          "hex_value": "#5e072f",
+          "colour_name": "Black Licorice Pop"
+        }
+      ]
+    },
+    {
+      "id": 760,
+      "brand": "clinique",
+      "name": "Chubby Stick Baby Tint&trade; Moisturizing Lip Colour Balm",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_Z4CF_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/30955/makeup/lipsticks/chubby-stick-baby-tint-moisturizing-lip-colour-balm",
+      "description": "A bit of colour, a hefty helping of moisture. These sheers bloom on contact to bring out your lips' natural tone. The colour is different for everyone.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/760.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/760/original/data?1514072328",
+      "product_colors": [
+        {
+          "hex_value": "#ff8fb2",
+          "colour_name": "Budding Blossom"
+        },
+        {
+          "hex_value": "#e35773",
+          "colour_name": "Coming Up Rosy"
+        },
+        {
+          "hex_value": "#f26a6f",
+          "colour_name": "Poppin' Poppy"
+        },
+        {
+          "hex_value": "#783e5b",
+          "colour_name": "Flowering Freesia"
+        }
+      ]
+    },
+    {
+      "id": 759,
+      "brand": "clinique",
+      "name": "Clinique + Jonathan Adler: Pop Lip Colour + Primer",
+      "price": "15.4",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_K22002_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/49842/makeup/lipsticks/clinique-jonathan-adler-pop-lip-colour-primer",
+      "description": "An exclusive collection of luminous Clinique Pop™ lipsticks by Jonathan Adler. Includes 3 limited-edition shades inspired by his favorite destinations: Palm Beach Pop, Capri Pop and Santorini Pop.  Jewel-like lipsticks in bold, saturated colors look as pretty on your lips as they do on your vanity. “The domes of Lucite are inspired by my Globo collection—glowing and glamorous. Just like Lip Pop,” says Adler.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/759.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/759/original/data?1514072328",
+      "product_colors": [
+        {
+          "hex_value": "#AD384A",
+          "colour_name": "Love Pop"
+        },
+        {
+          "hex_value": "#EA2C51",
+          "colour_name": "Palm Beach Pop"
+        },
+        {
+          "hex_value": "#7b3636",
+          "colour_name": "Cola Pop"
+        },
+        {
+          "hex_value": "#f45a3b",
+          "colour_name": "Melon Pop"
+        },
+        {
+          "hex_value": "#CC756C",
+          "colour_name": "Beige Pop"
+        },
+        {
+          "hex_value": "#E51E4F",
+          "colour_name": "Capri Pop "
+        },
+        {
+          "hex_value": "#FB8187",
+          "colour_name": "Fab Pop"
+        },
+        {
+          "hex_value": "#C86464",
+          "colour_name": "Bare Pop"
+        },
+        {
+          "hex_value": "#cd1859",
+          "colour_name": "Cherry Pop"
+        },
+        {
+          "hex_value": "#F83A3C",
+          "colour_name": "Poppy Pop"
+        },
+        {
+          "hex_value": "#AE266B",
+          "colour_name": "Santorini Pop"
+        }
+      ]
+    },
+    {
+      "id": 758,
+      "brand": "clinique",
+      "name": "Different Lipstick",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_617G_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/5887/makeup/lipsticks/different-lipstick",
+      "description": "Different because of its smooth, comfortable feel. Moderate coverage in a remarkable range of shades, from cream to pearl. Every one packed with rich emollients.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/758.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/758/original/data?1514072327",
+      "product_colors": [
+        {
+          "hex_value": "#8c3050",
+          "colour_name": "A Different Grape"
+        },
+        {
+          "hex_value": "#e26872",
+          "colour_name": "Sugared Grapefruit"
+        },
+        {
+          "hex_value": "#b96565",
+          "colour_name": "Think Bronze"
+        },
+        {
+          "hex_value": "#B76E74",
+          "colour_name": "Guava Stain"
+        },
+        {
+          "hex_value": "#DC555E",
+          "colour_name": "Sweet Honey"
+        },
+        {
+          "hex_value": "#9f3245",
+          "colour_name": "Plum Brandy"
+        },
+        {
+          "hex_value": "#8f4a4e",
+          "colour_name": "Surprise"
+        },
+        {
+          "hex_value": "#a44155",
+          "colour_name": "Shy"
+        },
+        {
+          "hex_value": "#9c0b2d",
+          "colour_name": "Angel Red"
+        },
+        {
+          "hex_value": "#ab455e",
+          "colour_name": "Raspberry Glace"
+        },
+        {
+          "hex_value": "#CC364C",
+          "colour_name": "Ripe Raisin"
+        },
+        {
+          "hex_value": "#A3555D",
+          "colour_name": "Spiced Apple"
+        },
+        {
+          "hex_value": "#984a37",
+          "colour_name": "Tenderheart"
+        },
+        {
+          "hex_value": "#dd587c",
+          "colour_name": "Glazed Berry"
+        },
+        {
+          "hex_value": "#AD665D",
+          "colour_name": "Bronze Leaf"
+        }
+      ]
+    },
+    {
+      "id": 757,
+      "brand": "clinique",
+      "name": "Clinique Pop™ Lacquer Lip Colour + Primer  ",
+      "price": "18.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPR_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/39139/makeup/lipsticks/clinique-poptm-lacquer-lip-colour-primer",
+      "description": "",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/757.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/757/original/data?1514072327",
+      "product_colors": [
+        {
+          "hex_value": "#d88282",
+          "colour_name": "Nude Pop"
+        },
+        {
+          "hex_value": "#d7142e",
+          "colour_name": "Lava Pop"
+        },
+        {
+          "hex_value": "#cc6674",
+          "colour_name": "Sugar Pop"
+        },
+        {
+          "hex_value": "#a65957",
+          "colour_name": "Cocoa Pop"
+        },
+        {
+          "hex_value": "#ff1e5a",
+          "colour_name": "Sweetie Pop"
+        },
+        {
+          "hex_value": "#6a1144",
+          "colour_name": "Peace Pop"
+        },
+        {
+          "hex_value": "#ec878d",
+          "colour_name": "Wink Pop"
+        },
+        {
+          "hex_value": "#ef005f",
+          "colour_name": "Go-Go Pop"
+        },
+        {
+          "hex_value": "#924257",
+          "colour_name": "Love Pop"
+        },
+        {
+          "hex_value": "#ff3d3c",
+          "colour_name": "Happy Pop"
+        }
+      ]
+    },
+    {
+      "id": 756,
+      "brand": "clinique",
+      "name": "Clinique Pop Glaze&trade; Sheer Lip Colour + Primer",
+      "price": "18.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPR02_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/39138/makeup/lipsticks/clinique-pop-glaze-sheer-lip-colour-primer",
+      "description": "",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/756.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/756/original/data?1514072327",
+      "product_colors": [
+        {
+          "hex_value": "#f276a2",
+          "colour_name": "Bubblegum Pop"
+        },
+        {
+          "hex_value": "#c05c67",
+          "colour_name": "Sugar Plum Pop"
+        },
+        {
+          "hex_value": "#cc376a",
+          "colour_name": "Sprinkle Pop"
+        },
+        {
+          "hex_value": "#c12838",
+          "colour_name": "Fireball Pop"
+        },
+        {
+          "hex_value": "#f45c5f",
+          "colour_name": "Melon Drop Pop"
+        },
+        {
+          "hex_value": "#731e3b",
+          "colour_name": "Licorice Pop"
+        }
+      ]
+    },
+    {
+      "id": 755,
+      "brand": "clinique",
+      "name": "Chubby Stick&trade; Moisturizing Lip Colour Balm",
+      "price": "17.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_749K01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/15520/makeup/lipsticks/chubby-stick-moisturizing-lip-colour-balm",
+      "description": "Super-nourishing balm is loaded with mango and shea butters. Just what dry, delicate lips need to feel comfortably soft and smooth. Natural-looking lip tints have a subtle sheen.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/755.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/755/original/data?1514072326",
+      "product_colors": [
+        {
+          "hex_value": "#b1515d",
+          "colour_name": "Super Strawberry"
+        },
+        {
+          "hex_value": "#b76f69",
+          "colour_name": "Heaping Hazelnut"
+        },
+        {
+          "hex_value": "#954b57",
+          "colour_name": "Graped-Up"
+        },
+        {
+          "hex_value": "#af6262",
+          "colour_name": "Whole Lotta Honey"
+        },
+        {
+          "hex_value": "#9b4344",
+          "colour_name": "Fuller Fig"
+        },
+        {
+          "hex_value": "#853f36",
+          "colour_name": "Richer Raisin"
+        },
+        {
+          "hex_value": "#ce1f1d",
+          "colour_name": "Two Ton Tomato"
+        },
+        {
+          "hex_value": "#c45a5b",
+          "colour_name": "Mega Melon"
+        },
+        {
+          "hex_value": "#f66366",
+          "colour_name": "Oversized Orange"
+        },
+        {
+          "hex_value": "#c04156",
+          "colour_name": "Chunky Cherry"
+        },
+        {
+          "hex_value": "#b11f60",
+          "colour_name": "Pudgy Peony"
+        },
+        {
+          "hex_value": "#e17587",
+          "colour_name": "Woppin' Watermelon"
+        },
+        {
+          "hex_value": "#984d50",
+          "colour_name": "Bountiful Blush"
+        },
+        {
+          "hex_value": "#e76477",
+          "colour_name": "Curvy Candy"
+        },
+        {
+          "hex_value": "#e3727c",
+          "colour_name": "Mighty Mimosa"
+        },
+        {
+          "hex_value": "#8f3851",
+          "colour_name": "Voluptuous Violet"
+        },
+        {
+          "hex_value": "#f7659e",
+          "colour_name": "Plumped Up Pink"
+        },
+        {
+          "hex_value": "#f09495",
+          "colour_name": "Supreme Sorbet"
+        },
+        {
+          "hex_value": "#a7354b",
+          "colour_name": "Jumbo Jasmine"
+        }
+      ]
+    },
+    {
+      "id": 754,
+      "brand": "clinique",
+      "name": "Clinique Pop™ Matte Lip Colour + Primer",
+      "price": "18.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZTPH01_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/42767/makeup/lipsticks/clinique-poptm-matte-lip-colour-primer",
+      "description": "Weightless yet pigment-saturated formula hugs lips with 8 hours of creamy matte comfort. Built-in primer helps smooth lips for an easy, even glide every time.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/754.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/754/original/data?1514072331",
+      "product_colors": [
+        {
+          "hex_value": "#4a1323",
+          "colour_name": "Bold Pop"
+        },
+        {
+          "hex_value": "#a8100b",
+          "colour_name": "Ruby Pop"
+        },
+        {
+          "hex_value": "#961741",
+          "colour_name": "Rose Pop"
+        },
+        {
+          "hex_value": "#7f2d55",
+          "colour_name": "Pow Pop"
+        },
+        {
+          "hex_value": "#cc0d49",
+          "colour_name": "Graffiti Pop"
+        },
+        {
+          "hex_value": "#592a26",
+          "colour_name": "Clove Pop"
+        },
+        {
+          "hex_value": "#a80028",
+          "colour_name": "Peppermint Pop"
+        },
+        {
+          "hex_value": "#a54b60",
+          "colour_name": "Cute Pop"
+        },
+        {
+          "hex_value": "#af1a58",
+          "colour_name": "Shock Pop"
+        },
+        {
+          "hex_value": "#d3313f",
+          "colour_name": "Coral Pop"
+        },
+        {
+          "hex_value": "#de387d",
+          "colour_name": "Mod Pop"
+        },
+        {
+          "hex_value": "#900925",
+          "colour_name": "Icon Pop"
+        },
+        {
+          "hex_value": "#dc7587",
+          "colour_name": "Peony Pop"
+        },
+        {
+          "hex_value": "#9f5859",
+          "colour_name": "Blushing Pop"
+        },
+        {
+          "hex_value": "#301018",
+          "colour_name": "Avant Garde Pop"
+        },
+        {
+          "hex_value": "#8e4546",
+          "colour_name": "Beach Pop"
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "brand": "clinique",
+      "name": "Clinique Pop&trade; Lip Colour + Primer",
+      "price": "18.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZEK2_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/35082/makeup/lipsticks/clinique-pop-lip-colour-primer",
+      "description": "Luxurious yet weightless formula merges bold, saturated colour with a smoothing primer. Glides on effortlessly to a modern-velvet finish. Colour stays true, keeps lips comfortably moisturized for 8 hours. Allergy Tested. 100% Fragrance Free.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/753.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/753/original/data?1514072326",
+      "product_colors": [
+        {
+          "hex_value": "#d3796e",
+          "colour_name": "Nude Pop"
+        },
+        {
+          "hex_value": "#f37e91",
+          "colour_name": "Fab Pop"
+        },
+        {
+          "hex_value": "#e08e7f",
+          "colour_name": "Beige Pop"
+        },
+        {
+          "hex_value": "#f47b74",
+          "colour_name": "Melon Pop"
+        },
+        {
+          "hex_value": "#b75c54",
+          "colour_name": "Bare Pop"
+        },
+        {
+          "hex_value": "#eb6b8a",
+          "colour_name": "Sweet Pop"
+        },
+        {
+          "hex_value": "#ef5498",
+          "colour_name": "Wow Pop"
+        },
+        {
+          "hex_value": "#974b6a",
+          "colour_name": "Grape Pop"
+        },
+        {
+          "hex_value": "#eb4944",
+          "colour_name": "Poppy Pop"
+        },
+        {
+          "hex_value": "#b45865",
+          "colour_name": "Plum Pop"
+        },
+        {
+          "hex_value": "#cb254c",
+          "colour_name": "Punch Pop"
+        },
+        {
+          "hex_value": "#b90e26",
+          "colour_name": "Cherry Pop"
+        },
+        {
+          "hex_value": "#8d3949",
+          "colour_name": "Love Pop"
+        },
+        {
+          "hex_value": "#750d15",
+          "colour_name": "Passion Pop"
+        },
+        {
+          "hex_value": "#641126",
+          "colour_name": "Berry Pop"
+        },
+        {
+          "hex_value": "#5a1e1b",
+          "colour_name": "Cola Pop"
+        }
+      ]
+    },
+    {
+      "id": 752,
+      "brand": "clinique",
+      "name": "Clinique Pop&trade; Lip Shadow Cushion Matte Lip Powder",
+      "price": "19.5",
+      "price_sign": "$",
+      "image_link": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZXH101_181x209.png",
+      "product_link": "https://www.clinique.com/product/1605/45673/makeup/lipsticks/clinique-pop-lip-shadow-cushion-matte-lip-powder",
+      "description": "Clinique Pop™ Lip Shadow is a weightless matte powder that delivers bold, highly pigmented lip color.",
+      "product_type": "lipstick",
+      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/752.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/752/original/data?1514072325",
+      "product_colors": [
+        {
+          "hex_value": "#BB5974",
+          "colour_name": "Blossom Pop"
+        },
+        {
+          "hex_value": "#9F6469",
+          "colour_name": "Dune Pop"
+        },
+        {
+          "hex_value": "#C91C67",
+          "colour_name": "Fuchsia Pop"
+        },
+        {
+          "hex_value": "#A82F5B",
+          "colour_name": "Fiesta Pop"
+        },
+        {
+          "hex_value": "#C02840",
+          "colour_name": "Crimson Pop"
+        },
+        {
+          "hex_value": "#C6243C",
+          "colour_name": "Bright Pop"
+        },
+        {
+          "hex_value": "#83403C",
+          "colour_name": "Brown Sugar Pop"
+        },
+        {
+          "hex_value": "#713547",
+          "colour_name": "Fun Pop"
+        }
+      ]
+    }
+  ]
+}

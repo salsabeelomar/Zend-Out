@@ -34,5 +34,11 @@ module.exports = {
         endOfLine: 'lf',
       },
     ],
+    'react/no-unstable-nested-components': [
+      'off',
+      {
+        allowAsProps: true,
+      },
+    ],
   },
 };
