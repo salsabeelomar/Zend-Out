@@ -5,27 +5,22 @@ module.exports = {
     node: true,
   },
   extends: [
-    'prettier', 
+    'prettier',
     'plugin:react/recommended',
     'airbnb',
     'plugin:prettier/recommended',
   ],
-  overrides: [
-  ],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    'react-native',
-    'prettier',
-  ],
+  plugins: ['react', 'react-native', 'prettier'],
   rules: {
-      "no-console": 0, 
-      'no-empty': 0,
-      'no-irregular-whitespace':0,
-   
+    'no-console': 0,
+    'no-empty': 0,
+    'no-irregular-whitespace': 0,
+    'react/prop-types': 0,
     'prettier/prettier': [
       'error',
       {
@@ -37,6 +32,12 @@ module.exports = {
         trailingComma: 'all',
         arrowParens: 'avoid',
         endOfLine: 'lf',
+      },
+    ],
+    'react/no-unstable-nested-components': [
+      'off',
+      {
+        allowAsProps: true,
       },
     ],
   },
