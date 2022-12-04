@@ -1,7 +1,7 @@
-import { Text } from 'react-native';
 import React from 'react';
+import SignUpComponent from '../Component/User/SignUp';
 
 function SignUp() {
-  return <Text> signups</Text>;
+  return <SignUpComponent />;
 }
 export default SignUp;
