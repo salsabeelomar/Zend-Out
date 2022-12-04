@@ -7,7 +7,10 @@ import Profile from '../Pages/Profile';
 function UserStack() {
   const Stack = createNativeStackNavigator();
   return (
-    <Stack.Navigator initialRouteName="Profile">
+    <Stack.Navigator
+      initialRouteName="SignUp"
+      screenOptions={{ headerShown: false }}
+    >
       <Stack.Screen name="SignIn" component={SignIn} />
       <Stack.Screen name="Profile" component={Profile} />
       <Stack.Screen name="SignUp" component={SignUp} />

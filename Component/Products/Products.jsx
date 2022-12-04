@@ -3,7 +3,6 @@ import Lottie from 'lottie-react-native';
 import { FlatList } from 'react-native';
 import Product from './Product';
 import { data } from '../Products.json';
-
 import productLoader from '../../assets/productLoader.json';
 
 function Products() {
