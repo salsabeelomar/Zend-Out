@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import Loader from '../../assets/imageLoader.json';
 import FavoriteButton from './FavoriteButton';
 
-function Product({ item }) {
+function Product({ item, flag }) {
   const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
   const [errorImg, setErrorImg] = useState(false);
@@ -68,10 +68,12 @@ function Product({ item }) {
           />
           <FavoriteButton cb={() => console.log(item.id)} flag="home" />
         </View>
-        <Text style={{ fontWeight: 'bold', paddingTop: 5, paddingLeft: 5 }}>
-          $ {item.price}
-        </Text>
-        <Text style={{ padding: 3, color: '#5c5959' }}>{item.name}</Text>
+        <View style={{ display: flag ? 'none' : 'block' }}>
+          <Text style={{ fontWeight: 'bold', paddingTop: 5, paddingLeft: 5 }}>
+            $ {item.price}
+          </Text>
+          <Text style={{ padding: 3, color: '#5c5959' }}>{item.name}</Text>
+        </View>
       </View>
     </Pressable>
   );

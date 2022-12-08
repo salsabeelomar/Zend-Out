@@ -14,7 +14,7 @@ function Products() {
       data={product}
       keyExtractor={item => item.id}
       renderItem={({ item }) => {
-        return <Product item={item} />;
+        return <Product item={item} flag={false} />;
       }}
     />
   ) : (
