@@ -25,6 +25,7 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
+        endOfLine: 'auto',
         printWidth: 80,
         tabWidth: 2,
         useTabs: false,
@@ -32,7 +33,6 @@ module.exports = {
         singleQuote: true,
         trailingComma: 'all',
         arrowParens: 'avoid',
-        endOfLine: 'lf',
       },
     ],
     'react/no-unstable-nested-components': [
