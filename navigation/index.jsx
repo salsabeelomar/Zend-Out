@@ -28,7 +28,11 @@ function AppNavigation() {
         },
       })}
     >
-      <Tab.Screen name="Shop" component={Landing} />
+      <Tab.Screen
+        name="Shop"
+        options={{ headerShown: true }}
+        component={Landing}
+      />
       <Tab.Screen name="Products" component={ProductStack} />
       <Tab.Screen name="User" component={UserStack} />
     </Tab.Navigator>
