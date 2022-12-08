@@ -1,7 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import AppNavigation from './navigation';
+import AppNavigation from './navigation/Products';
 
 function App() {
   return (
