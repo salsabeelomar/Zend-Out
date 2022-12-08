@@ -1,13 +1,13 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  text: { marginLeft: 15, fontSize: 18, color: '#372052' },
+  text: { marginLeft: 20, fontSize: 18, color: '#372052' },
   categories: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginVertical: 15,
-    marginHorizontal: 15,
+    marginHorizontal: 18,
   },
   category: {
     borderRadius: 100,

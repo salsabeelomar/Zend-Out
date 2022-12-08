@@ -2,13 +2,14 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Landing from '../Pages/LandingPage';
-import ProductStack from './Products';
 import UserStack from './User';
+import Products from '../Pages/Products';
 
 function AppNavigation() {
   const Tab = createBottomTabNavigator();
   return (
     <Tab.Navigator
+      initialRouteName="Shop"
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarActiveTintColor: '#886aad',
@@ -28,12 +29,8 @@ function AppNavigation() {
         },
       })}
     >
-      <Tab.Screen
-        name="Shop"
-        options={{ headerShown: true }}
-        component={Landing}
-      />
-      <Tab.Screen name="Products" component={ProductStack} />
+      <Tab.Screen name="Shop" component={Landing} />
+      <Tab.Screen name="Products" component={Products} />
       <Tab.Screen name="User" component={UserStack} />
     </Tab.Navigator>
   );
