@@ -15,7 +15,7 @@ function FavoriteButton({ id, flag }) {
       setFav(!(item === undefined) && item.id === id);
     };
     favItem();
-  }, []);
+  }, [fav]);
 
   const styles = StyleSheet.create({
     floating: {
@@ -35,15 +35,29 @@ function FavoriteButton({ id, flag }) {
     <Pressable
       style={StyleSheet.compose(styles.normal, styles.floating)}
       onPress={async () => {
-        if (items.filter(ele => ele.id === id).length > 0) {
-          const newItems = items.filter(ele => ele.id !== id);
-          await AsyncStorage.setItem('favorite', JSON.stringify(newItems));
-          setFav(false);
-          setItems(newItems);
-        } else {
-          setItems(prev => prev.concat({ id }));
-          await AsyncStorage.setItem('favorite', JSON.stringify(items));
-          setFav(true);
+        try {
+          const local = JSON.parse(await AsyncStorage.getItem('favorite'));
+          if (local.filter(ele => ele.id === id).length > 0) {
+            const newItems = local.filter(ele => ele.id !== id);
+            await AsyncStorage.setItem('favorite', JSON.stringify(newItems));
+            setFav(false);
+            console.log('------------------- removed ', newItems, id);
+            setItems(newItems);
+          } else {
+            await AsyncStorage.setItem(
+              'favorite',
+              JSON.stringify([...local, { id }]),
+            );
+            setFav(true);
+            setItems(local);
+            console.log(
+              '------------------added ',
+              id,
+              JSON.parse(await AsyncStorage.getItem('favorite')),
+            );
+          }
+        } catch (err) {
+          console.log(err);
         }
       }}
     >
