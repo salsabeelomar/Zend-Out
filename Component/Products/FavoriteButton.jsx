@@ -36,11 +36,12 @@ function FavoriteButton({ id, flag }) {
       style={StyleSheet.compose(styles.normal, styles.floating)}
       onPress={async () => {
         try {
-          const local = JSON.parse(await AsyncStorage.getItem('favorite'));
+          const local =
+            JSON.parse(await AsyncStorage.getItem('favorite')) || [];
           if (local.filter(ele => ele.id === id).length > 0) {
             const newItems = local.filter(ele => ele.id !== id);
             await AsyncStorage.setItem('favorite', JSON.stringify(newItems));
-            setFav(false);
+            setFav(false);gi
             console.log('------------------- removed ', newItems, id);
             setItems(newItems);
           } else {
