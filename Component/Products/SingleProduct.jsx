@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
 import { View, Text, Image, Pressable, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
@@ -13,6 +14,7 @@ const styles = StyleSheet.create({
     color: '#886aad',
     fontSize: 20,
     margin: 9,
+    textAlign: 'center',
   },
   image: {
     display: 'block',
@@ -33,14 +35,41 @@ const styles = StyleSheet.create({
     backgroundColor: '#886aad',
     fontSize: 20,
   },
+  labels: { fontSize: 15, fontWeight: 'bold', color: '#886aad' },
+  addCart: {
+    position: 'absolute',
+    flex: 0.1,
+    bottom: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 80,
+    flexDirection: 'row',
+    backgroundColor: '#886aad',
+    width: '100%',
+    borderTopEndRadius: 60,
+    borderTopStartRadius: 60,
+  },
+  addCartText: {
+    paddingLeft: 15,
+    fontSize: 18,
+    color: 'white',
+    letterSpacing: 5,
+  },
+  colors: {
+    width: 30,
+    height: 30,
+    margin: 5,
+    borderRadius: 50,
+  },
 });
+
 function ProductSingle({ route }) {
   const { description, productColors, image, id, name, price } = route.params;
   const [errorImg, setErrorImg] = useState(false);
   const [counter, setCounter] = useState(1);
 
   return (
-    <View>
+    <View style={{ flex: 1, height: '100%' }}>
       <Image
         onError={() => {
           setErrorImg(true);
@@ -60,12 +89,8 @@ function ProductSingle({ route }) {
           justifyContent: 'space-between',
         }}
       >
-        <Text> {name} </Text>
-        <FavoriteButton
-          cb={() => {
-            console.log(id);
-          }}
-        />
+        <Text style={styles.labels}>{name}</Text>
+        <FavoriteButton id={id} flag="singlePage" />
       </View>
 
       <View>
@@ -75,7 +100,7 @@ function ProductSingle({ route }) {
             justifyContent: 'space-between',
           }}
         >
-          <Text style={styles.text}>{price}$</Text>
+          <Text style={{ paddingTop: 15, ...styles.text }}>{price}$</Text>
           <View
             style={{
               ...styles.displayingRow,
@@ -103,12 +128,14 @@ function ProductSingle({ route }) {
             </Pressable>
           </View>
         </View>
-        <Text>{description}</Text>
+        <Text style={{ marginLeft: 15, color: 'grey', fontSize: 17 }}>
+          {description}
+        </Text>
       </View>
 
       {productColors.length > 0 && (
-        <>
-          <Text>Colors: </Text>
+        <View style={{ margin: 15 }}>
+          <Text style={styles.labels}>Colors: </Text>
           <View
             style={{
               ...styles.displayingRow,
@@ -117,22 +144,21 @@ function ProductSingle({ route }) {
           >
             {productColors.map((ele, index) => (
               <View
-                key={() => index}
-                style={{
-                  width: 30,
-                  height: 30,
-                  margin: 5,
-                  borderRadius: 50,
-                  backgroundColor: ele.hex_value,
-                }}
+                key={index + 4}
+                style={{ backgroundColor: ele.hex_value, ...styles.colors }}
               />
             ))}
           </View>
-        </>
+        </View>
       )}
-      <Pressable onPress={() => {}}>
-        <Text> Add to cart </Text>
-        <Icon name="shoppingcart" size="20" color="#886aad" />
+      <Pressable
+        // onPress={async () => {
+        //   await AsyncStorage.setItem('cart', JSON.stringify(id));
+        // }}
+        style={styles.addCart}
+      >
+        <Icon name="shoppingcart" size="20" color="white" />
+        <Text style={styles.addCartText}>ADD TO CART</Text>
       </Pressable>
     </View>
   );

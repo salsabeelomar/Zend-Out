@@ -13,6 +13,7 @@ function Products() {
       numColumns={2}
       data={product}
       keyExtractor={item => item.id}
+      initialNumToRender={5}
       renderItem={({ item }) => {
         return <Product item={item} flag={false} />;
       }}
