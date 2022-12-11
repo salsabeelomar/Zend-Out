@@ -1,7 +1,7 @@
-import { Text } from 'react-native';
 import React from 'react';
+import Landing from '../Component/Landing/Landing';
 
-function Landing() {
-  return <Text> Landing</Text>;
+function LandingPage() {
+  return <Landing />;
 }
-export default Landing;
+export default LandingPage;

@@ -54,6 +54,17 @@ function SignIn() {
             </Text>
           )}
           <Pressable
+            onPress={() => {
+              navigation.navigate('SignUp');
+            }}
+            style={{ flexDirection: 'row', marginTop: 20 }}
+          >
+            <Text style={{ color: 'gray' }}>You don&#39;t an Account? </Text>
+            <Text style={{ color: '#886aad', textDecorationColor: '#886aad' }}>
+              Sign Up
+            </Text>
+          </Pressable>
+          <Pressable
             style={styles.Buttons}
             onPress={async () => {
               try {
