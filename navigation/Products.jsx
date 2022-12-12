@@ -6,8 +6,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import logo2 from '../assets/logo2.png';
 import Favorite from '../Pages/Favorite';
 import Cart from '../Pages/Cart';
-import Tabs from './index';
+import Tabs from './Tabs';
 import SinglePage from '../Component/Products/SingleProduct';
+import Profile from '../Pages/Profile';
 
 function headerBtn(navigation) {
   return (
@@ -74,6 +75,7 @@ function ProductStack() {
       />
       <Stack.Screen name="Cart" component={Cart} />
       <Stack.Screen name="Favorite" component={Favorite} />
+      <Stack.Screen name="Profile" component={Profile} />
       <Stack.Screen name="Tabs" component={Tabs} />
     </Stack.Navigator>
   );
