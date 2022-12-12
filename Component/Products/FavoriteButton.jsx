@@ -10,12 +10,14 @@ function FavoriteButton({ id, flag }) {
 
   useEffect(() => {
     const favItem = async () => {
-      setItems(JSON.parse(await AsyncStorage.getItem('favorite')) || []);
-      const item = items.find(ele => ele.id === id);
+      const itemsArray =
+        JSON.parse(await AsyncStorage.getItem('favorite')) || [];
+      setItems([...itemsArray]);
+      const item = itemsArray.find(ele => ele.id === id);
       setFav(!(item === undefined) && item.id === id);
     };
     favItem();
-  }, [fav]);
+  }, []);
 
   const styles = StyleSheet.create({
     floating: {
@@ -41,21 +43,15 @@ function FavoriteButton({ id, flag }) {
           if (local.filter(ele => ele.id === id).length > 0) {
             const newItems = local.filter(ele => ele.id !== id);
             await AsyncStorage.setItem('favorite', JSON.stringify(newItems));
-            setFav(false);gi
-            console.log('------------------- removed ', newItems, id);
             setItems(newItems);
+            setFav(false);
           } else {
             await AsyncStorage.setItem(
               'favorite',
               JSON.stringify([...local, { id }]),
             );
             setFav(true);
-            setItems(local);
-            console.log(
-              '------------------added ',
-              id,
-              JSON.parse(await AsyncStorage.getItem('favorite')),
-            );
+            setItems([...items, { id }]);
           }
         } catch (err) {
           console.log(err);
