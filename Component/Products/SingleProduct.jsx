@@ -1,9 +1,10 @@
 /* eslint-disable react/no-array-index-key */
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { View, Text, Image, Pressable, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
 import FavoriteButton from './FavoriteButton';
+import { Cart } from '../../Context/CartContext';
 
 const styles = StyleSheet.create({
   displayingRow: {
@@ -65,6 +66,7 @@ const styles = StyleSheet.create({
 });
 
 function ProductSingle({ route }) {
+  const { total, setTotal, setCart, cart } = useContext(Cart);
   const { item } = route.params;
   const [errorImg, setErrorImg] = useState(false);
   const [counter, setCounter] = useState(1);
@@ -112,7 +114,9 @@ function ProductSingle({ route }) {
           >
             <Pressable
               style={styles.ButtonColor}
-              onPress={() => setCounter(counter + 1)}
+              onPress={() => {
+                setCounter(counter + 1);
+              }}
             >
               <Text style={styles.textCounter}> + </Text>
             </Pressable>
@@ -145,7 +149,7 @@ function ProductSingle({ route }) {
           >
             {item.product_colors.map((ele, index) => (
               <View
-                key={index + 4}
+                key={index}
                 style={{ backgroundColor: ele.hex_value, ...styles.colors }}
               />
             ))}
@@ -155,9 +159,34 @@ function ProductSingle({ route }) {
       <Pressable
         onPress={async () => {
           try {
-            const cart = JSON.parse(await AsyncStorage.getItem('cart')) || [];
-            cart.push({ id: item.id, counter });
-            await AsyncStorage.setItem('cart', JSON.stringify(cart));
+            if (cart.filter(ele => ele.item.id === item.id).length > 0) {
+              console.log('here');
+              const newArr = cart.map(ele => {
+                if (ele.item.id === item.id) {
+                  return { item, counter };
+                }
+                return ele;
+              });
+              setTotal(total + item.price * counter);
+              setCart([...newArr]);
+              await AsyncStorage.setItem(
+                'cart',
+                JSON.stringify({
+                  cartItems: newArr,
+                  totalItems: total,
+                }),
+              );
+            } else {
+              setTotal(total + item.price * counter);
+              setCart([...cart, { item, counter }]);
+              await AsyncStorage.setItem(
+                'cart',
+                JSON.stringify({
+                  cartItems: [...cart, { item, counter }],
+                  totalItems: total,
+                }),
+              );
+            }
           } catch (error) {
             console.log(error);
           }
