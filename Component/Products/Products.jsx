@@ -11,7 +11,6 @@ function Products() {
   useEffect(() => {
     try {
       const getProducts = async () => {
-        console.log('here');
         const bronzerApi = await axios.get(
           'https://makeup-api.herokuapp.com/api/v1/products.json?product_type=Bronzer&price_less_than=30&price_greater_than=10',
         );
