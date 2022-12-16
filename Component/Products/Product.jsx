@@ -66,7 +66,7 @@ function Product({ item, flag }) {
               borderRadius: 5,
             }}
           />
-          <FavoriteButton flag="home" id={item.id} />
+          <FavoriteButton flag="home" product={item} />
         </View>
         <View style={{ display: flag ? 'none' : 'block' }}>
           <Text style={{ fontWeight: 'bold', paddingTop: 5, paddingLeft: 5 }}>

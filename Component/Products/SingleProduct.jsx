@@ -1,4 +1,5 @@
 /* eslint-disable react/no-array-index-key */
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { useState } from 'react';
 import { View, Text, Image, Pressable, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
@@ -90,7 +91,10 @@ function ProductSingle({ route }) {
         }}
       >
         <Text style={styles.labels}>{name}</Text>
-        <FavoriteButton id={id} flag="singlePage" />
+        <FavoriteButton
+          product={{ description, productColors, image, id, name, price }}
+          flag="singlePage"
+        />
       </View>
 
       <View>
@@ -152,9 +156,16 @@ function ProductSingle({ route }) {
         </View>
       )}
       <Pressable
-        // onPress={async () => {
-        //   await AsyncStorage.setItem('cart', JSON.stringify(id));
-        // }}
+        onPress={async () => {
+          try {
+            const cart = JSON.parse(await AsyncStorage.getItem('cart')) || [];
+            cart.push({ id, counter });
+            await AsyncStorage.setItem('cart', JSON.stringify(cart));
+            console.log({ id, counter }, 'added');
+          } catch (error) {
+            console.log(error);
+          }
+        }}
         style={styles.addCart}
       >
         <Icon name="shoppingcart" size="20" color="white" />
