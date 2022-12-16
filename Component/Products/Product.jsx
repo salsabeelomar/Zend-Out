@@ -13,14 +13,7 @@ function Product({ item, flag }) {
   return (
     <Pressable
       onPress={() => {
-        navigation.navigate('SingleProduct', {
-          id: item.id,
-          description: item.description,
-          name: item.name,
-          image: item.image_link,
-          price: item.price,
-          productColors: item.product_colors,
-        });
+        navigation.navigate('SingleProduct', { item });
       }}
     >
       <View

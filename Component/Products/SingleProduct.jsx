@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
 });
 
 function ProductSingle({ route }) {
-  const { description, productColors, image, id, name, price } = route.params;
+  const { item } = route.params;
   const [errorImg, setErrorImg] = useState(false);
   const [counter, setCounter] = useState(1);
 
@@ -78,7 +78,7 @@ function ProductSingle({ route }) {
         source={{
           uri: errorImg
             ? 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSLx2ikECnRXDzPAAMSdJkpQ78Aqz-frGAq5Eez5Aak6X1nMhRpuFNY3Opl5Ys9BQLAEs&usqp=CAU'
-            : image,
+            : item.image_link,
         }}
         alt="items"
         style={styles.image}
@@ -90,11 +90,8 @@ function ProductSingle({ route }) {
           justifyContent: 'space-between',
         }}
       >
-        <Text style={styles.labels}>{name}</Text>
-        <FavoriteButton
-          product={{ description, productColors, image, id, name, price }}
-          flag="singlePage"
-        />
+        <Text style={styles.labels}>{item.name}</Text>
+        <FavoriteButton product={item} flag="singlePage" />
       </View>
 
       <View>
@@ -104,7 +101,7 @@ function ProductSingle({ route }) {
             justifyContent: 'space-between',
           }}
         >
-          <Text style={{ paddingTop: 15, ...styles.text }}>{price}$</Text>
+          <Text style={{ paddingTop: 15, ...styles.text }}>{item.price}$</Text>
           <View
             style={{
               ...styles.displayingRow,
@@ -133,11 +130,11 @@ function ProductSingle({ route }) {
           </View>
         </View>
         <Text style={{ marginLeft: 15, color: 'grey', fontSize: 17 }}>
-          {description}
+          {item.description}
         </Text>
       </View>
 
-      {productColors.length > 0 && (
+      {item.product_colors.length > 0 && (
         <View style={{ margin: 15 }}>
           <Text style={styles.labels}>Colors: </Text>
           <View
@@ -146,7 +143,7 @@ function ProductSingle({ route }) {
               flexWrap: 'wrap',
             }}
           >
-            {productColors.map((ele, index) => (
+            {item.product_colors.map((ele, index) => (
               <View
                 key={index + 4}
                 style={{ backgroundColor: ele.hex_value, ...styles.colors }}
@@ -159,9 +156,8 @@ function ProductSingle({ route }) {
         onPress={async () => {
           try {
             const cart = JSON.parse(await AsyncStorage.getItem('cart')) || [];
-            cart.push({ id, counter });
+            cart.push({ id: item.id, counter });
             await AsyncStorage.setItem('cart', JSON.stringify(cart));
-            console.log({ id, counter }, 'added');
           } catch (error) {
             console.log(error);
           }
