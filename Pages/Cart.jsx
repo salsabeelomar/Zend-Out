@@ -1,7 +1,7 @@
-import { Text } from 'react-native';
 import React from 'react';
+import CartItem from '../Component/Cart/CartItems';
 
 function Cart() {
-  return <Text> Cart</Text>;
+  return <CartItem />;
 }
 export default Cart;

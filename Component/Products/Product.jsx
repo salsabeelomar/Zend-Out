@@ -13,14 +13,7 @@ function Product({ item, flag }) {
   return (
     <Pressable
       onPress={() => {
-        navigation.navigate('SingleProduct', {
-          id: item.id,
-          description: item.description,
-          name: item.name,
-          image: item.image_link,
-          price: item.price,
-          productColors: item.product_colors,
-        });
+        navigation.navigate('SingleProduct', { item });
       }}
     >
       <View
@@ -66,7 +59,7 @@ function Product({ item, flag }) {
               borderRadius: 5,
             }}
           />
-          <FavoriteButton cb={() => console.log(item.id)} flag="home" />
+          <FavoriteButton flag="home" product={item} />
         </View>
         <View style={{ display: flag ? 'none' : 'block' }}>
           <Text style={{ fontWeight: 'bold', paddingTop: 5, paddingLeft: 5 }}>
