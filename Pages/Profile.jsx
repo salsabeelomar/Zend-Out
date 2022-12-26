@@ -46,12 +46,28 @@ function Profile() {
         marginTop: 70,
       }}
     >
-      <UserAvatar
-        size={80}
-        style={styles.avatar}
-        bgColor="#886aad96"
-        name={user.fName}
-      />
+      <View style={{ position: 'relative' }}>
+        <UserAvatar
+          size={80}
+          style={styles.avatar}
+          bgColor="#886aad96"
+          name={user.fName}
+        />
+        <Pressable
+          style={{
+            position: 'absolute',
+            left: '60%',
+            top: '50%',
+            backgroundColor: 'white',
+            width: 30,
+            height: 30,
+            borderRadius: '50%',
+          }}
+        >
+          <Icon name="edit" size="25" color="#886aad" />
+        </Pressable>
+      </View>
+
       <Text style={styles.Texts}>
         <Icon name="user" size="25" color="#886aad" />
         {user.fName} {user.lName}
