@@ -7,12 +7,14 @@ function CartCom() {
   const { total, cart } = useContext(Cart);
   return (
     <View style={{ flex: 1 }}>
-      <FlatList
-        data={cart}
-        numColumns={2}
-        keyExtractor={item => item.item.id}
-        renderItem={({ item }) => <Product item={item.item} flag={false} />}
-      />
+      {cart.length > 0 && (
+        <FlatList
+          data={cart}
+          numColumns={2}
+          keyExtractor={item => item.item.id}
+          renderItem={({ item }) => <Product item={item.item} flag={false} />}
+        />
+      )}
       <View
         style={{
           position: 'absolute',

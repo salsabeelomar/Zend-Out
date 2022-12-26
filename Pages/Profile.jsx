@@ -1,9 +1,11 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import UserAvatar from 'react-native-user-avatar';
 import Icon from 'react-native-vector-icons/AntDesign';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Favorite } from '../Context/FavoriteContext';
+import { Cart } from '../Context/CartContext';
 
 const styles = StyleSheet.create({
   Texts: {
@@ -26,6 +28,9 @@ const styles = StyleSheet.create({
 function Profile() {
   const [user, setUser] = useState();
   const navigation = useNavigation();
+  const { setItems } = useContext(Favorite);
+  const { setCart, setTotal } = useContext(Cart);
+
   useEffect(() => {
     const getUser = async () => {
       setUser(JSON.parse(await AsyncStorage.getItem('user')));
@@ -58,7 +63,7 @@ function Profile() {
           size="20"
           color="#886aad"
           style={{ paddingTop: 10 }}
-        />{' '}
+        />
         {user.email}
       </Text>
       <Pressable
@@ -67,6 +72,9 @@ function Profile() {
           try {
             await AsyncStorage.clear();
             navigation.navigate('SignUp');
+            setTotal(0);
+            setItems([]);
+            setCart([]);
           } catch (error) {
             console.log(error);
           }

@@ -26,8 +26,8 @@ function SignUp() {
   });
   useEffect(() => {
     const getUser = async () => {
-      const localUser = JSON.parse(await AsyncStorage.getItem('user'))
-      if (localUser&&localUser.email)navigation.navigate('Profile')
+      const localUser = JSON.parse(await AsyncStorage.getItem('user'));
+      if (localUser && localUser.email) navigation.navigate('Profile');
     };
     getUser();
   }, []);
