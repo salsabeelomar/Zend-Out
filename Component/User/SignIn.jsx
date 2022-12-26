@@ -19,8 +19,8 @@ function SignIn() {
   const navigation = useNavigation();
   const [inputError, setError] = useState(false);
   const [user, setUser] = useState({
-    Email: '',
-    Password: '',
+    email: '',
+    password: '',
   });
 
   return (
@@ -33,13 +33,13 @@ function SignIn() {
           <Image source={logo} style={{ marginTop: -35, marginBottom: 10 }} />
           <CustomInput
             label="Email"
-            value={user.Email}
-            callback={text => setUser(prev => ({ ...prev, Email: text }))}
+            value={user.email}
+            callback={text => setUser(prev => ({ ...prev, email: text }))}
           />
           <CustomInput
             label="Password"
-            value={user.Password}
-            callback={text => setUser(prev => ({ ...prev, Password: text }))}
+            value={user.password}
+            callback={text => setUser(prev => ({ ...prev, password: text }))}
           />
           {inputError && (
             <Text
@@ -68,7 +68,7 @@ function SignIn() {
             style={styles.Buttons}
             onPress={async () => {
               try {
-                if (user.Email !== '' && user.Password !== '') {
+                if (user.email !== '' && user.password !== '') {
                   await AsyncStorage.setItem('user', JSON.stringify(user));
                   navigation.navigate('Profile', { user });
                 } else {

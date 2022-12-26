@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../assets/landing.png';
 import styles from './styles';
 import CustomInput from './CustomInput';
@@ -24,6 +24,13 @@ function SignUp() {
     lName: '',
     password: '',
   });
+  useEffect(() => {
+    const getUser = async () => {
+      const localUser = JSON.parse(await AsyncStorage.getItem('user'));
+      if (localUser && localUser.email) navigation.navigate('Profile');
+    };
+    getUser();
+  }, []);
   const handleSignUp = (text, type) => {
     setUser(prev => ({ ...prev, [type]: text }));
   };

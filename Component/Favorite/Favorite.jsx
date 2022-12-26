@@ -7,12 +7,14 @@ import { Favorite } from '../../Context/FavoriteContext';
 function FavoriteCom() {
   const { items } = useContext(Favorite);
   return (
-    <FlatList
-      data={items}
-      keyExtractor={item => item.id}
-      numColumns={2}
-      renderItem={({ item }) => <Product item={item} flag={false} />}
-    />
+    items.length > 0 && (
+      <FlatList
+        data={items}
+        keyExtractor={item => item.id}
+        numColumns={2}
+        renderItem={({ item }) => <Product item={item} flag={false} />}
+      />
+    )
   );
 }
 export default FavoriteCom;

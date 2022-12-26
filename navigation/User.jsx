@@ -2,18 +2,13 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SignIn from '../Pages/SignIn';
 import SignUp from '../Pages/SignUp';
-import Profile from '../Pages/Profile';
 
 function UserStack() {
   const Stack = createNativeStackNavigator();
   return (
-    <Stack.Navigator
-      initialRouteName="SignUp"
-      screenOptions={{ headerShown: false }}
-    >
-      <Stack.Screen name="SignIn" component={SignIn} />
-      <Stack.Screen name="Profile" component={Profile} />
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="SignUp" component={SignUp} />
+      <Stack.Screen name="SignIn" component={SignIn} />
     </Stack.Navigator>
   );
 }
